@@ -133,13 +133,27 @@ i, #contact p {
     font-size: 11px;
 }
 
-@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+@media only screen and (max-width: 640px) {
   #headline h1 {
     padding-top: 38%;
     font-size: 55px;
   }
   #landing {
     background-image: url(../img/smallbg.png);
+    text-align: center;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #headline h1 {
+    padding-top: 38%;
+    font-size: 55px;
+    color: default;
+  }
+  #landing {
+/*     background-image: url(../img/smallbg.png); */
+    color: default;
+    background-color: white;
     text-align: center;
     padding: 0;
   }
