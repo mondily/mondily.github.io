@@ -139,6 +139,7 @@ i, #contact p {
     font-size: 55px;
   }
   #landing {
+    background-image: url("../img/smallbg.png");
     text-align: center;
     padding: 0;
   }
