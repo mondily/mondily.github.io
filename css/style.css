@@ -132,19 +132,7 @@ i, #contact p {
 #footer p {
     font-size: 11px;
 }
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-  #headline h1 {
-    padding-top: 38%;
-    font-size: 55px;
-    color: #464646;
-  }
-  #landing {
-    background-image: none;
-    color: #464646;
-    text-align: center;
-    padding: 0;
-  }
-}
+
 @media only screen and (max-width: 640px) {
   #headline h1 {
     padding-top: 38%;
@@ -156,4 +144,3 @@ i, #contact p {
     padding: 0;
   }
 }
-
