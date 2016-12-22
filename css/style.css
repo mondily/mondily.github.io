@@ -136,15 +136,15 @@ i, #contact p {
   #headline h1 {
     padding-top: 38%;
     font-size: 55px;
-    color: default;
+    color: blue;
   }
-  #landing {
+/*   #landing {
     background-image: none;
     color: default;
     background-color: white;
     text-align: center;
     padding: 0;
-  }
+  } */
 }
 @media only screen and (max-width: 640px) {
   #headline h1 {
