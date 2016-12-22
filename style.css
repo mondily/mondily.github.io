@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.navbar-default {
+    background-color: rgba(49,49,49, 0.8);
+    border-color: transparent;
+}
+
+.navbar-nav {
+    text-align: center;
+    float: none;
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav > li {
+    font-weight:300;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+/* color of the links when hovered on */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #D8D8D8;
+}
+
+#landing {
+    margin: 0;
+    text-align: right;
+    padding-right: 2.5em;
+    color: white;
+    background-image: url("fadedskyline.png");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#headline h1 {
+    padding-top: 1.6em;
+    font-weight: 200;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+#headline p {
+    padding-bottom: 25em;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#about {
+    background-color: #CAE2E4;
+}
+
+#aboutme p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+#title {
+    padding-top: 3.25em;
+}
+
+#title h2 {
+    font-weight: 200;
+    font-size: 45px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#picture {
+    width: 75%;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.circle-img {
+    border-radius: 50%;
+    height: 17em;
+    width: 17em;
+}
+
+#work {
+    background-color: #F7F7F7;
+}
+
+.company-img {
+    padding-top: 3em;
+    height: 55%;
+    width: 55%;
+}
+
+#projects {
+    background-color: #DCF0ED;
+}
+
+.proj-img {
+    padding-top: 2.5em;
+    height: 30%;
+    width: 30%;
+}
+
+#contact {
+    background-color: black;
+    padding-top: 4em;
+}
+
+i, #contact p {
+    color: gray;
+    text-align: center;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color:  #464646;
+}
+
+#footer {
+    padding-top: 3em;
+}
+
+#footer p {
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 640px) {
+  #headline h1 {
+    padding-top: 38%;
+    font-size: 55px;
+  }
+  #landing {
+    text-align: center;
+    padding: 0;
+  }
+}
