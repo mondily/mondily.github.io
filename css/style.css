@@ -144,14 +144,14 @@ i, #contact p {
     padding: 0;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
   #headline h1 {
     padding-top: 38%;
     font-size: 55px;
     color: default;
   }
   #landing {
-/*     background-image: url(../img/smallbg.png); */
+    background-image: none;
     color: default;
     background-color: white;
     text-align: center;
