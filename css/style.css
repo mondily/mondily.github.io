@@ -35,7 +35,7 @@ body {
     text-align: right;
     padding-right: 2.5em;
     color: white;
-    background-image: url("fadedskyline.png");
+    background-image: url("../img/fadedskyline.png");
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
