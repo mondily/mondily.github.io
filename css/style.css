@@ -136,12 +136,12 @@ i, #contact p {
   #headline h1 {
     padding-top: 38%;
     font-size: 55px;
-    color: gray;
+    color: #464646;
   }
   #landing {
+    background-color: blue;
     background-image: none;
-    background-color: white;
-    color: gray;
+    color: #464646;
     text-align: center;
     padding: 0;
   }
